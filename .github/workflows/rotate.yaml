@@ -19,4 +19,4 @@ jobs:
       - name: Rotate pfp
         env:
           SLACK_USER_TOKEN: ${{ secrets.SLACK_USER_TOKEN }}
-        run: python rotate_pfp.py
+        run: python animate_slow.py
